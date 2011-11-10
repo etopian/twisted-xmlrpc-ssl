@@ -1,27 +1,5 @@
-Modular, SSL, XMLRPC Server with Authentication for Python using Twistd
-Sami Khan
-Etopian Inc. (http://www.etopian.com)
-
-In order to run:  twistd -y xmlrpc_app.py
-
-You may need to edit xmlrpc_app.py in order to point it to the directory in which
-the server files reside.
-
-See protocol.py for an example of how to write your own class to extend the server.
-
-See xmlrpc.conf for configuring the server with our own class, port, etc.
-
-See httpspass.conf to define the username password of your server. The password is a hash.
-
-Also you should generate your own certificates andd not use mine, they are for testing only.
-
-If you need any development done, be sure to hire me (http://www.etopian.com/quote)!
-
-Cheer,
-Sami Khan
-
-==========================================================================
-What I needed to do to get this to work:
+What I needed to do to get this to work
+---------------------------------------
 
 * Install Twisted
 * Install Zope Interfaces
@@ -53,6 +31,3 @@ What I needed to do to get this to work:
 	twistd -y xmlrpc_app.py
 * Test the client:
 	python client.py
-
-Best wishes,
-Lionel Young
