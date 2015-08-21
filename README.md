@@ -1,3 +1,8 @@
+This project has been been updated and does not work, use this instead:
+
+https://github.com/etopian/python3-xmlrpc-ssl-basic-auth
+
+
 What I needed to do to get this to work
 ---------------------------------------
 
