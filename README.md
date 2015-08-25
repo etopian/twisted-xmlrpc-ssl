@@ -1,4 +1,4 @@
-This project has been been updated and does not work, use this instead:
+This project has not been updated and does not work, use this instead:
 
 https://github.com/etopian/python3-xmlrpc-ssl-basic-auth
 
